@@ -1,3 +1,5 @@
 #!/bin/bash
 # setup env
-echo $(pwd):"$PATH"
+echo "$PATH"
+export PATH=$(pwd):"$PATH"
+echo "$PATH"
