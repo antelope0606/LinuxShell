@@ -1,10 +1,11 @@
 #!/bin/bash
 # Program to output a system information page
-echo "<html>"
-echo " <head>"
-echo " <title>Page Title</title>"
-echo " </head>"
-echo " <body>"
-echo " Page body."
-echo " </body>"
-echo "</html>"
+title="System Information Report"
+echo "<html>
+<head>
+<title>$title</title>
+</head>
+<body>
+<h1>$title</h1>
+</body>
+</html>"
